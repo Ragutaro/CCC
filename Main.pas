@@ -57,6 +57,7 @@ end;
 
 procedure TfrmMain.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
+  //
   _SaveSettings;
   Release;
   frmMain := nil;   //フォーム名に変更する
